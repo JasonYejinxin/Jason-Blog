@@ -4,7 +4,7 @@ import jason.springframework.jasonblog.entity.SysLog;
 import jason.springframework.jasonblog.entity.SysLogExample;
 import java.util.List;
 
-public interface SysLogMapper {
+public interface SysLogMapper extends SysService{
     int deleteByPrimaryKey(Long id);
 
     int insert(SysLog record);

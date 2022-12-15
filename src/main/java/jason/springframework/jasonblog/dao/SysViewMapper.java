@@ -4,7 +4,7 @@ import jason.springframework.jasonblog.entity.SysView;
 import jason.springframework.jasonblog.entity.SysViewExample;
 import java.util.List;
 
-public interface SysViewMapper {
+public interface SysViewMapper extends SysService{
     int deleteByPrimaryKey(Long id);
 
     int insert(SysView record);
